@@ -1,0 +1,13 @@
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\ClientPage.xaml.g.cs
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\FTTClient.csproj.CoreCompileInputs.cache
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\FTTClient.AssemblyInfoInputs.cache
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\FTTClient.AssemblyInfo.cs
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\FTTClient.dll
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\FTTClient.pdb
+D:\MurbongSoft\FTTClient\FTTClient\bin\Debug\netstandard2.0\FTTClient.deps.json
+D:\MurbongSoft\FTTClient\FTTClient\bin\Debug\netstandard2.0\FTTClient.dll
+D:\MurbongSoft\FTTClient\FTTClient\bin\Debug\netstandard2.0\FTTClient.pdb
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\FTTClient.csprojAssemblyReference.cache
+D:\MurbongSoft\FTTClient\FTTClient\obj\Debug\netstandard2.0\XamlC.stamp

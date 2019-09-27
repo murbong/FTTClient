@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FTTClient.MainPage">
+
+    <Grid>
+        <!-- Place new controls here -->
+        <Label Text="통발타이머 클라이언트" 
+           HorizontalOptions="Center"
+           VerticalOptions="Start"
+               Margin="0,100,0,0"/>
+        <Entry x:Name="Entry_IP" Placeholder="Server IP" HorizontalTextAlignment="Center" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,50" TextChanged="Entry_TextChanged"/>
+        <Entry x:Name="Entry_Port" Placeholder="Port (Default : 52323)" HorizontalTextAlignment="Center" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,50,0,0" TextChanged="Entry_TextChanged"/>
+        <Button Text="Connect" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,50" Clicked="Button_Clicked"/>
+    </Grid>
+
+</ContentPage>
