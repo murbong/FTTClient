@@ -44,16 +44,16 @@ namespace FTTClient
                 Manager.@string.AppendLine(DateTime.Now.ToString(@"yyyy\-MM\-dd hh\:mm\:ss \: ") + str);
                 Editor_Command.Text = Manager.@string.ToString();
                 Editor_Command.Focus();
+                CrossLocalNotifications.Current.Show("알림", str, 0);
+
+                Task.Run(async() => { await Task.Delay(10000); CrossLocalNotifications.Current.Cancel(0); });
 
                 if (factor)
                 {
-
-
-
                     DisplayAlert("경고", "통발이 터진거같아요...", "네").ContinueWith((arg) => { ring = false;
-                        CrossLocalNotifications.Current.Cancel(0);
+                        CrossLocalNotifications.Current.Cancel(1);
                     });
-                    CrossLocalNotifications.Current.Show("경고", "통발이 터진것 같아요.",0);
+                    CrossLocalNotifications.Current.Show("경고", "통발이 터진것 같아요.",1);
                     var orientation = DependencyService.Get<IDevicePowerOn>().Wake();
 
                 }

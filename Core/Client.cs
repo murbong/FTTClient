@@ -57,7 +57,7 @@ namespace FTTClient.Core
                 else
                 {
                     //ReceivedStr("오류.");
-                    tcpClient.Close();
+                    tcpClient?.Close();
                     throw new SocketException(10060); // Connection timed out.
                 }
                 //Task.Run(() => BeginRead());
